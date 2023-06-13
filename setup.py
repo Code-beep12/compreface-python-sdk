@@ -42,7 +42,7 @@ setup(
         "SDK"
     ],
     install_requires=[
-        'requests-toolbelt==0.9.1'
+        'requests-toolbelt'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
