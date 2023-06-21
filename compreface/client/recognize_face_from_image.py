@@ -60,7 +60,7 @@ class RecognizeFaceFromImageClient(ClientRequest):
         # Sending encode image for recognize faces.
         result = requests.post(url, data=m, headers={'Content-Type': m.content_type,
                                                      'x-api-key': self.api_key})
-        return result
+        return result.json()
 
     def put(self):
         pass
